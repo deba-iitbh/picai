@@ -20,8 +20,8 @@ import SimpleITK as sitk
 from picai_baseline.splits.picai_nnunet import nnunet_splits
 
 # specify paths to preprocessed data in nnU-Net Raw Data Archive
-preprocessed_data_path = Path('/home/devildev/proj/mtech/dbox/sem1/CS550/picai/workdir/nnUNet_raw_data/Task2201_picai_baseline/')
-overviews_path = Path('/home/devildev/proj/mtech/dbox/sem1/CS550/picai/workdir/results/UNet/overviews/')
+preprocessed_data_path = Path('./../workdir/nnUNet_raw_data/Task2201_picai_baseline/')
+overviews_path = Path('./../workdir/results/UNet/overviews/')
 
 # specify cases that should be excluded from the train and validation sets
 excluded_cases = [

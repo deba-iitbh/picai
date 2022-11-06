@@ -1,4 +1,4 @@
-from model.unets import UNet
+from monai.networks.nets import UNet, DynUNet, AttentionUnet
 
 def neural_network_for_run(args, device):
     """Select neural network architecture for given run"""
